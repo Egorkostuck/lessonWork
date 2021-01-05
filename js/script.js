@@ -15,6 +15,7 @@ const clickOnDocument = (event) => {
     pixel.style.top = positionY + 'px';
     pixel.style.backgroundColor = brash.color;
     pixel.style.width = brash.size + 'px';
+    pixel.style.height= brash.size + 'px';
     workPlace.appendChild(pixel);
     console.log(positionX, positionY);
 }
